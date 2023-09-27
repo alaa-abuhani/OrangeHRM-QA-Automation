@@ -47,8 +47,6 @@ describe(" login test cases", () => {
   });
 
   it(" LOGIN: Hidden Password", () => {
-    cy.get("@logininfo").then((logininfo: any) => {
-      loginObj.hiddenPassword();
-    });
+    loginObj.hiddenPassword();
   });
 });
